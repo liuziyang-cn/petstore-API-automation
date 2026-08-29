@@ -1,6 +1,6 @@
-# Petstore API 接口自动化测试框架
+# Pet Community API 接口自动化测试框架
 
-基于 Python + Requests 对 [Swagger Petstore](https://petstore.swagger.io) REST API 进行接口自动化测试。
+基于 Python + Requests 进行接口自动化测试。
 
 ## 技术栈
 
@@ -70,10 +70,3 @@ allure open ./report/report-html
 | 用户管理 | 27 | 注册/批量创建/查询/更新/删除 |
 | 库存查询 | 2 | 正常查询、缺 api_key |
 | **合计** | **97** | |
-
-## Roadmap
-
-- [ ] CI/CD（GitHub Actions 自动执行 + Allure 报告部署）
-- [ ] 多环境配置切换（dev/staging/prod）
-- [ ] 数据库连接池替代单次连接
-- [ ] eval 替换为 json.loads 消除安全风险
